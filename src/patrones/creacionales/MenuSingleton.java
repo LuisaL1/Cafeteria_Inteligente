@@ -1,10 +1,10 @@
 package patrones.creacionales;
 
 import models.Producto;
-import patrones.estrategias.EstrategiaFiltrado;
-import patrones.estrategias.FiltroPorCategoria;
-import patrones.estrategias.FiltroPorEtiqueta;
-import patrones.estrategias.FiltroPorTemporada;
+import patrones.comportamentales.EstrategiaFiltrado;
+import patrones.comportamentales.FiltroPorCategoria;
+import patrones.comportamentales.FiltroPorEtiqueta;
+import patrones.comportamentales.FiltroPorTemporada;
 
 import java.time.Month;
 import java.util.*;
@@ -18,17 +18,12 @@ import java.util.logging.Logger;
  * Incluye funcionalidad para filtrar productos usando el patrón Strategy.
  */
 public class MenuSingleton {
-    // Instancia volatile para asegurar visibilidad entre hilos.
     private static volatile MenuSingleton instance;
-    // Lock explícito para la inicialización segura (double-checked locking).
     private static final Lock lock = new ReentrantLock();
 
-    // Mapa concurrente para almacenar categorías y sus listas de productos.
     private final Map<String, List<Producto>> menu;
-    // Mapa de estrategias de filtrado (Strategy pattern).
     private final Map<String, EstrategiaFiltrado<Producto>> estrategiasFiltrado;
 
-    // Constructor privado para forzar el uso del singleton.
     private MenuSingleton() {
         this.menu = new ConcurrentHashMap<>();
         this.estrategiasFiltrado = new HashMap<>();
@@ -36,7 +31,6 @@ public class MenuSingleton {
         inicializarMenu();
     }
 
-    // Método público para obtener la instancia única (thread-safe).
     public static MenuSingleton getInstance() {
         if (instance == null) {
             lock.lock();
