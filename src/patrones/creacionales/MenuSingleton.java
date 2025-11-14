@@ -1,10 +1,10 @@
 package patrones.creacionales;
 
 import models.Producto;
-import patrones.estrategias.EstrategiaFiltrado;
-import patrones.estrategias.FiltroPorCategoria;
-import patrones.estrategias.FiltroPorEtiqueta;
-import patrones.estrategias.FiltroPorTemporada;
+import patrones.comportamentales.strategy.busqueda.EstrategiaFiltrado;
+import patrones.comportamentales.strategy.busqueda.FiltroPorCategoria;
+import patrones.comportamentales.strategy.busqueda.FiltroPorEtiqueta;
+import patrones.comportamentales.strategy.busqueda.FiltroPorTemporada;
 
 import java.time.Month;
 import java.util.*;

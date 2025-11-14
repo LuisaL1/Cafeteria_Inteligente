@@ -17,19 +17,19 @@ public class MenuServiceImpl implements MenuService {
     @Override
     public List<Producto> obtenerBebidas() {
         System.out.println("Consultando bebidas desde el origen...");
-        return menu.obtenerCategoria("BEBIDA");
+        return menu.getCategoria("Bebidas");
     }
 
     @Override
     public List<Producto> obtenerComidas() {
         System.out.println("Consultando comidas desde el origen...");
-        return menu.obtenerCategoria("COMIDA");
+        return menu.getCategoria("Comidas");
     }
 
     @Override
     public List<Producto> obtenerPostres() {
         System.out.println("Consultando postres desde el origen...");
-        return menu.obtenerCategoria("POSTRE");
+        return menu.getCategoria("Postres");
     }
 
     @Override
@@ -40,5 +40,6 @@ public class MenuServiceImpl implements MenuService {
 
     @Override
     public void invalidarCache() {
+        // Implementación vacía porque el servicio real no maneja caché
     }
 }

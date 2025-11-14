@@ -1,4 +1,4 @@
-package patrones.comportamentales.strategy;
+package patrones.comportamentales.strategy.seasonalmenuContext;
 
 import models.Producto;
 

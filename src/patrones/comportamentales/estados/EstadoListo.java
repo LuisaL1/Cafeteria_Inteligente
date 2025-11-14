@@ -1,7 +1,6 @@
-package patrones.comportamentales;
+package patrones.comportamentales.estados;
 // Paquete donde se implementan los estados del patrón State
 
-import models.Orden;
 // Se importa la clase Orden para poder modificar su estado internamente
 
 public class EstadoListo implements StateOrden {

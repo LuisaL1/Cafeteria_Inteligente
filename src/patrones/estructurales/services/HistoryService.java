@@ -1,7 +1,7 @@
 package patrones.estructurales.services;
 
 import patrones.comportamentales.estados.Orden;
-import patrones.comportamentales.memento.MementoHistorial;
+import patrones.comportamentales.MementoHistorial;
 
 /**
  * Servicio especializado para gestión de historial.

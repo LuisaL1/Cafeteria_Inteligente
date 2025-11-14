@@ -1,6 +1,4 @@
-package patrones.comportamentales;
-
-import models.Orden;
+package patrones.comportamentales.estados;
 
 /**
  * Representa el estado "Cancelado" dentro del patrón State para una orden.

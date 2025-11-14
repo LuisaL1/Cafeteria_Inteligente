@@ -1,9 +1,7 @@
-package models;
+package patrones.comportamentales.estados;
 // Paquete donde se encuentra la clase Orden
 
-import patrones.comportamentales.EstadoPendiente;
-import patrones.comportamentales.StateOrden;
-import patrones.comportamentales.EstadoCancelado;
+import models.Producto;
 // Importación de las clases que forman parte del patrón State
 
 import java.time.LocalDateTime;
