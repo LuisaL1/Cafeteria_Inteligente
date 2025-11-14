@@ -4,6 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+    <list default="true" id="a82c222a-6694-41c8-97f5-8f940cbe723d" name="Changes" comment="Se implementa el Proxy que sirve como una caché o memoria interna.">
+      <change afterPath="$PROJECT_DIR$/src/patrones/estructurales/services/HistoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patrones/estructurales/services/NotificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patrones/estructurales/services/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Main.java" afterDir="false" />
     <list default="true" id="a82c222a-6694-41c8-97f5-8f940cbe723d" name="Changes" comment="Se implementa patron Singleton">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -30,6 +36,15 @@
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
   "lastFilter": {
     "state": "OPEN",
+    "assignee": "Danieloroz"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/LuisaL1/Cafeteria_Inteligente.git",
+    "accountId": "da8a28ac-f879-40d6-bb3b-f1d3febfe68b"
+  }
+}]]></component>
     "assignee": "Victoria239"
   }
 }]]></component>
@@ -54,6 +69,12 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "git-widget-placeholder": "factory-metodo",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Usuario/Desktop/Cafeteria_Inteligente/src/patrones/estructurales",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "git-widget-placeholder": "State",
     "kotlin-language-version-configured": "true",
@@ -65,6 +86,17 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Usuario\Desktop\Cafeteria_Inteligente\src\patrones\estructurales" />
+      <recent name="C:\Users\Usuario\Desktop\Cafeteria_Inteligente\src\patrones\comportamentales" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-84258761d1cc-intellij.indexing.shared.core-IU-243.28141.18" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.28141.18" />
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -82,6 +114,25 @@
       <option name="presentableId" value="Default" />
       <updated>1763088464004</updated>
       <workItem from="1763088465070" duration="1000" />
+      <workItem from="1763091477681" duration="2076000" />
+    </task>
+    <task id="LOCAL-00001" summary="Se implementan menús especiales para Halloween y Navidad.">
+      <option name="closed" value="true" />
+      <created>1763092134575</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1763092134575</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Se implementa el Proxy que sirve como una caché o memoria interna.">
+      <option name="closed" value="true" />
+      <created>1763092632833</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1763092632833</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
       <workItem from="1763091173041" duration="988000" />
     </task>
     <task id="LOCAL-00001" summary="Se implementa patron Singleton">
@@ -99,6 +150,9 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="Se implementan menús especiales para Halloween y Navidad." />
+    <MESSAGE value="Se implementa el Proxy que sirve como una caché o memoria interna." />
+    <option name="LAST_COMMIT_MESSAGE" value="Se implementa el Proxy que sirve como una caché o memoria interna." />
     <MESSAGE value="Se implementa patron Singleton" />
     <option name="LAST_COMMIT_MESSAGE" value="Se implementa patron Singleton" />
   </component>
